@@ -17,8 +17,6 @@ function resetTimer() {
 }
 
 function setupTimers () {
-    console.log('page loaded!')
-    //added a console.log to check that the onload is working
     document.addEventListener("mousemove", resetTimer, false);
     document.addEventListener("mousedown", resetTimer, false);
     document.addEventListener("keypress", resetTimer, false);
