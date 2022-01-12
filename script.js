@@ -1,4 +1,4 @@
-const timeoutInMiliseconds = 3000;
+const timeoutInMiliseconds = 60000;
 let timeoutId;
 
 function startTimer() {
